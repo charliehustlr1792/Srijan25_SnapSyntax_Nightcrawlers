@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
     return (
-        <div className="flex justify-center w-full">
+        <span className="flex justify-center w-full fixed top-0 z-10">
             <nav className="bg-gray-200 p-4 rounded-full shadow-md w-1/5 md:w-2/4 lg:w-2/3">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center justify-between w-full space-x-4">
@@ -33,6 +33,6 @@ export default function Navbar() {
                     </div>
                 </div>
             </nav>
-        </div>
+        </span>
     );
 }

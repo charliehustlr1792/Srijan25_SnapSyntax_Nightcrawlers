@@ -7,15 +7,15 @@ export default function Navbar() {
             <nav className="bg-gray-200 p-4 rounded-full shadow-md w-1/5 md:w-2/4 lg:w-2/3">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center justify-between w-full space-x-4">
-                        <button className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded-full transition-colors duration-300">
-                            Dashboard
-                        </button>
+                        <div className='text-black text-3xl font-bold pl-3'>
+                            JOHN DOE
+                        </div>
 
                         <Link href="/about" className="text-gray-700 hover:text-gray-900">
                             About Us
                         </Link>
 
-                        <Link href="/skills" className="text-gray-700 hover:text-gray-900">
+                        <Link href="/myskills" className="text-gray-700 hover:text-gray-900">
                             My Skills
                         </Link>
 
